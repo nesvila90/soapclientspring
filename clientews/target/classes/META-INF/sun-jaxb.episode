@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.2.11 
+Visite <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2020.01.29 a las 05:38:14 PM COT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="urn://grupoaval.com/ProdsChnsMngt/v1/">
+    <schemaBindings map="false">
+      <package name="com.grupoaval.bancopopular.clientews.wsclient.domain"/>
+    </schemaBindings>
+    <bindings scd="~tns:AddFirstBuyRs_Type">
+      <class ref="com.grupoaval.bancopopular.clientews.wsclient.domain.AddFirstBuyRsType"/>
+    </bindings>
+    <bindings scd="~tns:AddFirstBuyRq_Type">
+      <class ref="com.grupoaval.bancopopular.clientews.wsclient.domain.AddFirstBuyRqType"/>
+    </bindings>
+    <bindings scd="~tns:AddFirstBuyResponse_Type">
+      <class ref="com.grupoaval.bancopopular.clientews.wsclient.domain.AddFirstBuyResponseType"/>
+    </bindings>
+    <bindings scd="~tns:AddFirstBuyRequest_Type">
+      <class ref="com.grupoaval.bancopopular.clientews.wsclient.domain.AddFirstBuyRequestType"/>
+    </bindings>
+  </bindings>
+  <bindings scd="x-schema::tns" xmlns:tns="urn://grupoaval.com/xsd/ifx/">
+    <schemaBindings map="false">
+      <package name="com.grupoaval.bancopopular.clientews.wsclient.domain"/>
+    </schemaBindings>
+    <bindings scd="~tns:CurrencyAmount_Type">
+      <class ref="com.grupoaval.bancopopular.clientews.wsclient.domain.CurrencyAmountType"/>
+    </bindings>
+    <bindings scd="~tns:SelRangeDt_Type">
+      <class ref="com.grupoaval.bancopopular.clientews.wsclient.domain.SelRangeDtType"/>
+    </bindings>
+    <bindings scd="~tns:Binary_Type">
+      <class ref="com.grupoaval.bancopopular.clientews.wsclient.domain.BinaryType"/>
+    </bindings>
+    <bindings scd="~tns:ClientApp_Type">
+      <class ref="com.grupoaval.bancopopular.clientews.wsclient.domain.ClientAppType"/>
+    </bindings>
+    <bindings scd="~tns:RefInfo_Type">
+      <class ref="com.grupoaval.bancopopular.clientews.wsclient.domain.RefInfoType"/>
+    </bindings>
+    <bindings scd="~tns:AdditionalStatus_Type">
+      <class ref="com.grupoaval.bancopopular.clientews.wsclient.domain.AdditionalStatusType"/>
+    </bindings>
+    <bindings scd="~tns:PINInfo_Type">
+      <class ref="com.grupoaval.bancopopular.clientews.wsclient.domain.PINInfoType"/>
+    </bindings>
+    <bindings scd="~tns:SvcRq_Type">
+      <class ref="com.grupoaval.bancopopular.clientews.wsclient.domain.SvcRqType"/>
+    </bindings>
+    <bindings scd="~tns:MsgRqHdr_Type">
+      <class ref="com.grupoaval.bancopopular.clientews.wsclient.domain.MsgRqHdrType"/>
+    </bindings>
+    <bindings scd="~tns:BankInfo_Type">
+      <class ref="com.grupoaval.bancopopular.clientews.wsclient.domain.BankInfoType"/>
+    </bindings>
+    <bindings scd="~tns:PostAddr_Type">
+      <class ref="com.grupoaval.bancopopular.clientews.wsclient.domain.PostAddrType"/>
+    </bindings>
+    <bindings scd="~tns:UserId_Type">
+      <class ref="com.grupoaval.bancopopular.clientews.wsclient.domain.UserIdType"/>
+    </bindings>
+    <bindings scd="~tns:CustId_Type">
+      <class ref="com.grupoaval.bancopopular.clientews.wsclient.domain.CustIdType"/>
+    </bindings>
+    <bindings scd="~tns:CustName_Type">
+      <class ref="com.grupoaval.bancopopular.clientews.wsclient.domain.CustNameType"/>
+    </bindings>
+    <bindings scd="~tns:GovIssueIdent_Type">
+      <class ref="com.grupoaval.bancopopular.clientews.wsclient.domain.GovIssueIdentType"/>
+    </bindings>
+    <bindings scd="~tns:TxCostAmt_Type">
+      <class ref="com.grupoaval.bancopopular.clientews.wsclient.domain.TxCostAmtType"/>
+    </bindings>
+    <bindings scd="~tns:Status_Type">
+      <class ref="com.grupoaval.bancopopular.clientews.wsclient.domain.StatusType"/>
+    </bindings>
+    <bindings scd="~tns:MsgRsHdr_Type">
+      <class ref="com.grupoaval.bancopopular.clientews.wsclient.domain.MsgRsHdrType"/>
+    </bindings>
+    <bindings scd="~tns:GenericAcctId_Type">
+      <class ref="com.grupoaval.bancopopular.clientews.wsclient.domain.GenericAcctIdType"/>
+    </bindings>
+    <bindings scd="~tns:Severity_Type">
+      <typesafeEnumClass ref="com.grupoaval.bancopopular.clientews.wsclient.domain.SeverityType"/>
+    </bindings>
+  </bindings>
+</bindings>
+
